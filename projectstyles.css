@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing:border-box;
+}
+
+html,body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  margin: 0, auto;
+  color: #607381;
+  font-size: large;
+  letter-spacing:0.1px;
+}
+
+hr {
+   margin: 50px 13% 0 13%;
+   border: 0;
+   height: 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+  margin-left: 13%;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  }
+
+
+#footer h4 {
+ display: inline;
+ margin-top: 10px;
+ text-align: left;
+ font-size: large;
+ color: #607381;
+ font-weight: normal;
+}
+
+#header {
+  height: 150px;
+  line-height: 150px;
+  background: white;
+}
+
+#header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header-title {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin:0 0 0 13%;
+}
+
+#header-nav {
+  float: right;
+  margin:0 12.5% 0 0;
+  font-size: 14px;
+ }
+ 
+ 
+#header-nav li {
+  display: inline;
+  padding: 15px;
+ }
+
+
+.motto {
+  color:gray;
+  font-weight: 300;
+  margin:0 0 0 10px;
+}
+
+a {
+  color: #607381;
+  text-decoration: none;
+}
+
+label {
+  font-size: 40px;
+  line-height: 70px;
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+img.branding {
+  width: 100%;
+  height: 220px;
+}
+
+.background {
+  text-align: left;
+}
+
+.background > img {
+  margin-left: 12.5%;
+  width: 75%;
+}
+
+.overview {
+  margin-top: 50px;
+  margin-left: 13%;
+  margin-right: 12.5%;
+}
+
+.result {
+  text-align: center;
+  margin: 20px,150px,50px,150px;
+}
+
+.result > img {
+  width: 75%;
+}
+
+.intro {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap:50px;
+  background-color: #ffffff;
+  margin: 30px 12.5% 100px 13%;
+}
+
+.evalution {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.evalution > img {
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  width: 65%;
+}
+
+.evalution > p {
+  margin-left: 13%;
+  margin-right: 12.5%;
+  text-align: left;
+}
+
+.video {
+  text-align: center;
+}
+
+.empathy {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.empathy > img {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.empathy > p {
+  margin-left: 17%;
+  margin-right: 15%;
+  text-align: left;
+}
+
+.painpoints {
+  margin-top: 200px;
+  text-align: center;
+  padding: 50px;
+}
+
+.painpoints > img {
+  width: 60%;
+}
+
+.painpoints > p {
+  margin-left: 13%;
+  margin-right: 12.5%;
+  text-align: left;
+}
+
+.userflow {
+  text-align: center;
+  padding:10px 80px 80px 80px;
+  background-color:  #ffffff;
+  margin: 50px 13% 30px 12.5%;
+}
+
+.userflow > img {
+  margin-top: 50px;
+  width: 100%
+}
+
+.userflow > p {
+  text-align: left;
+}
+
+.wireframe {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.wireframe > img {
+  width: 60%;
+  margin-bottom: 100px;
+}
+
+.wireframe > P {
+  margin-left: 13%;
+  margin-right: 12.5%;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+
+.impact {
+  text-align: center;
+}
+
+.impact > P {
+  margin-left: 13%;
+  margin-right: 12.5%;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.impact > img {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 75%;
+}
+
+.reflection {
+  text-align:center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.reflection > p {
+  margin-left: 13%;
+  margin-right: 12.5%;
+  text-align: left;
+}
+
+
+/*va styles goes here.*/
+
+.overview {
+  padding: 0px 20px 100px 20px;
+}
+
+.competitive {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.competitive > img {
+  width: 80%;
+}
+
+.competitive > p {
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+  }
+
+.howitwork {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.howitwork > P {
+  padding: 0px 150px 0px 150px;
+  text-align: left;
+}
+
+.howitwork > img {
+  width: 90%;
+}
+
+.survey {
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.survey > P {
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.survey > img {
+  width: 80%;
+  margin-top: 50px;
+  
+}
+
+.vahigh {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.vahigh > img {
+  width: 80%;
+}
+
+.ia {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.ia > img {
+  width: 80%;
+}
+
+.ia > p {
+  text-align: left;
+  margin-left: 17%;
+  margin-right: 15%;
+}
+
+.wireflow {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.wireflow > img {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.wireflow > p {
+  margin-left: 17%;
+  margin-right: 15%;
+  text-align: left;
+}
+
+.takeaways {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.takeaways > P {
+  text-align: left;
+  margin: 0px 12.5% 50px 13%;
+}
+
+.users {
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 12.5%;
+  margin-left: 13%;
+  padding-top: 50px;
+}
+
+.users > img {
+  width: 80%;
+}
+
+.challenge {
+  text-align: center;
+}
+
+.challenge > img {
+  margin-top: 100px;
+  width: 60%;
+}
+
+.prototype {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about{
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 60px 0;
+}
+
+.about-author img {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+}
+
+
+/*Divvich styles goes here.*/
+.context {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+.business {
+ margin-left: 15%;
+ margin-right: 10%;
+}
+
+.business > img{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.myrole {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+.metrics {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.metrics img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+.competition {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.competition img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.personas {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.personas img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.brainstorming {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.brainstorming img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.sketches {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.sketches img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.flow {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.flow img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.vision {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.vision img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.learning {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 760px) {
+
+
+/*Mobile for RC case study*/
+
+html,body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  margin: 0, auto;
+  color: #607381;
+  font-size: large;
+  letter-spacing:0.1px;
+}
+
+.intro {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+.background{
+   margin: 0px;
+   padding: 0px;
+   background-color: #ffffff;
+ }
+
+.background > img {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+#background img {
+  height: auto;
+  width: 100%;
+}
+
+label {
+  display: inline;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-right: 20px;
+  float: right;
+  font-size: 25px;
+}
+
+.overview {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.evalution {
+    margin-top: 50px;
+    text-align: center;
+ }
+
+.evalution > img {
+   margin-top: 50px;
+   width: 100%;
+ }
+
+.evalution > p {
+   margin: 0px;
+}
+
+.user {
+  text-align: center;
+}
+
+.user > img {
+  width: 100%;
+}
+
+.userflow > p {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+}
+
+.userflow > img {
+  width: 100%;
+}
+
+.container1 {
+    display: none;
+  }
+
+.statement{
+   margin: 0 auto;
+  }
+
+.about-author {
+    padding-top: 50px;
+  }
+
+.about-author img {
+   display: #2a2a2a;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   margin: 0 auto;
+  }
+
+ .wireframe > P {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+
+.empathy > img {
+    width:100%;
+  }
+
+.empathy > p {
+    text-align: left;
+    margin: 0px;
+  }
+
+.painpoints {
+    margin-top: 50px;
+    padding: 5px;
+  }
+  
+.painpoints > p {
+    margin: 0;
+    text-align: left;
+  }
+  
+.painpoints > img {
+    width: 100%;
+  }
+
+.userflow {
+      margin: 50px 0 0 0;
+      text-align: center;
+      padding: 0px 10px 0px 10px;
+    }
+
+.userflow > img {
+      width: 100%;
+    }
+
+.wireframe > p {
+          text-align: left;
+          padding: 0px 10px 0px 10px;
+        }
+
+.result > p {
+          text-align: left;
+          padding: 0px 0px 0px 0px;
+        }
+
+.wireframe > img {
+          width: 95%;
+        }
+
+.reflection > p {
+        text-align: left;
+        margin: 0px;
+        }
+
+.impact {
+  text-align: center;
+}
+
+.impact > P {
+  margin: 0px;
+  text-align: left;
+}
+
+.impact > img {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+
+/*Mobile for VA case study*/
+
+#header-title {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left:10px;
+  padding:0px;
+ }
+
+ #header-nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  line-height: 100%;
+  text-align: center;
+ }
+
+
+ #header-nav li {
+  display: block;
+  margin: 0;
+  width: 100%;
+ }
+
+#toggle:checked + #header-nav {
+   display: block;
+}
+
+label {
+  display: inline;
+  cursor: pointer;
+  margin-top: 35px;
+  margin-right: 20px;
+  float: right;
+  color: #607381;
+}
+
+.intro {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 50px;
+  background-color: #FBFBFB;
+}
+
+.survey {
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.survey > P {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.survey > img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.competitive {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.competitive > img {
+  width: 100%;
+}
+
+.competitive > p {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+.howitwork {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+.howitwork > P{
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+  }
+  
+.howitwork > img {
+    width: 100%;
+  }
+
+.vaa > img {
+    width: 100%;
+  }
+
+.competitive > img {
+  width: 100%;
+}
+
+.ia {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.ia > img {
+  width: 100%;
+}
+
+.ia > p {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wireflow {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.wireflow > img {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.wireflow > p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.takeaways {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.takeaways > P {
+  text-align: left;
+  margin: 0px 20px 50px 20px;
+}
+
+.users {
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 50px;
+}
+
+.users > img {
+  width: 100%;
+}
+
+.challenge > img {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.vahigh > img {
+  width: 100%;
+}
+
+
+/*Mobile Divvich styles goes here.*/
+
+.overview {
+  padding: 0px 0px 20px 0px;
+}
+
+ 
+
+ 
